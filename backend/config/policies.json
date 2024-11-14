@@ -1,0 +1,172 @@
+[
+  {
+    "name": "KEYCAR PLAN",
+    "provider": "DISCOVERY HEALTH",
+    "premium": 1102,
+    "coverage": [
+      {
+        "hospital cover": "standard",
+        "chronicIllness": "Unlimited",
+        "cancer": "standard",
+        "dayToDay": "standard"
+      }
+    ]
+  },
+  {
+    "name": "SMART PLAN",
+    "provider": "DISCOVERY HEALTH",
+    "premium": 1565,
+    "coverage": [
+      {
+        "hospital cover": "standard",
+        "chronicIllness": "Unlimited",
+        "cancer": "standard",
+        "dayToDay": "standard"
+      }
+    ]
+  },
+  {
+    "name": "CORE PLAN",
+    "provider": "DISCOVERY HEALTH",
+    "premium": 2281,
+    "coverage": [
+      {
+        "hospital cover": "unlimited",
+        "chronicIllness": "Unlimited",
+        "cancer": "none",
+        "dayToDay": "none"
+      }
+    ]
+  },
+  {
+    "name": "SAVER PLAN",
+    "provider": "DISCOVERY HEALTH",
+    "premium": 2673,
+    "coverage": [
+      {
+        "hospital cover": "unlimited",
+        "chronicIllness": "Unlimited",
+        "cancer": "none",
+        "dayToDay": "unlimited"
+      }
+    ]
+  },
+  {
+    "name": "PRIORITY PLAN",
+    "provider": "DISCOVERY HEALTH",
+    "premium": 4531,
+    "coverage": [
+      {
+        "hospital cover": "standard",
+        "chronicIllness": "standard",
+        "cancer": "none",
+        "dayToDay": "standard"
+      }
+    ]
+  },
+  {
+    "name": "COMPREHENSIVE PLAN",
+    "provider": "DISCOVERY HEALTH",
+    "premium": 7163,
+    "coverage": [
+      {
+        "hospital cover": "unlimited",
+        "chronicIllness": "Unlimited",
+        "cancer": "unlimited",
+        "dayToDay": "unlimited"
+      }
+    ]
+  },
+  {
+    "name": "EXECUTIVE PLAN",
+    "provider": "DISCOVERY HEALTH",
+    "premium": 10303,
+    "coverage": [
+      {
+        "hospital cover": "unlimited",
+        "chronicIllness": "Unlimited",
+        "cancer": "unlimited",
+        "dayToDay": "unlimited"
+      }
+    ]
+  },
+  {
+    "name": "EVOLVE PLAN",
+    "provider": "MOMENTUM HEALTH",
+    "premium": 1847,
+    "coverage": [
+      {
+        "hospital cover": "unlimited",
+        "chronicIllness": "standard",
+        "cancer": "basic",
+        "dayToDay": "standard"
+      }
+    ]
+  },
+  {
+    "name": "CUSTOM PLAN",
+    "provider": "MOMENTUM HEALTH",
+    "premium": 2353,
+    "coverage": [
+      {
+        "hospital cover": "medium",
+        "chronicIllness": "basic",
+        "cancer": "basic",
+        "dayToDay": "standard"
+      }
+    ]
+  },
+  {
+    "name": "INCETIVE PLAN",
+    "provider": "MOMENTUM HEALTH",
+    "premium": 3060,
+    "coverage": [
+      {
+        "hospital cover": "medium",
+        "chronicIllness": "Unlimited",
+        "cancer": "basic",
+        "dayToDay": "standard"
+      }
+    ]
+  },
+  {
+    "name": "EXTENDER PLAN",
+    "provider": "MOMENTUM HEALTH",
+    "premium": 7215,
+    "coverage": [
+      {
+        "hospital cover": "medium",
+        "chronicIllness": "Unlimited",
+        "cancer": "basic",
+        "dayToDay": "medium"
+      }
+    ]
+  },
+  {
+    "name": "SUMMIT PLAN",
+    "provider": "MOMENTUM HEALTH",
+    "premium": 14903,
+    "coverage": [
+      {
+        "hospital cover": "unlimited",
+        "chronicIllness": "Unlimited",
+        "cancer": "basic",
+        "dayToDay": "medium"
+      }
+    ]
+  },
+  {
+    "name": "INGWE PLAN",
+    "provider": "MOMENTUM HEALTH",
+    "premium": 589,
+    "coverage": [
+      {
+        "hospital cover": "basic",
+        "chronicIllness": "basic",
+        "cancer": "basic",
+        "dayToDay": "basic"
+      }
+    ]
+  }
+
+]

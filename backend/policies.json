@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Basic Plan",
+    "premium": 200,
+    "franchise": "1000",
+    "hazard": "medium",
+    "freeDoctorChoice": true,
+    "accidentInsurance": true,
+    "coverage": ["general", "emergency"]
+  },
+  {
+    "name": "Economy Plan",
+    "premium": 150,
+    "franchise": "1500",
+    "hazard": "low",
+    "freeDoctorChoice": false,
+    "accidentInsurance": true,
+    "coverage": ["general"]
+  },
+  {
+    "name": "Premium Plan",
+    "premium": 300,
+    "franchise": "500",
+    "hazard": "high",
+    "freeDoctorChoice": true,
+    "accidentInsurance": true,
+    "coverage": ["general", "emergency", "dental"]
+  }
+]
