@@ -1,0 +1,84 @@
+.analysis-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+.analysis-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3f51b5;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 20px auto;
+}
+
+.progress-container {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-text {
+    position: absolute;
+    font-size: 20px;
+    color: #3f51b5;
+}
+
+.summary-details {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.info-icon {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.ai-history {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.ai-history h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.previous-button,
+.next-button {
+    background-color: #3f51b5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.previous-button:hover,
+.next-button:hover {
+    background-color: #303f9f;
+}

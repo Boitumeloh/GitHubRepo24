@@ -1,0 +1,177 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.dashboard-header {
+  font-size: 24px;
+  padding: 10px;
+  background-color: #3f51b5;
+  color: #fff;
+  text-align: center;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.left-column {
+  flex: 0 0 70%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+.right-column {
+  flex: 0 0 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.user-policy-details {
+  text-align: center;
+}
+
+.currently-paying {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.per-month {
+  font-size: 14px;
+  color: #777;
+}
+
+.current-franchise {
+  margin-top: 20px;
+}
+
+.checkbox-sections {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.checkbox-section {
+  flex: 1;
+}
+
+.checkbox-section h3 {
+  margin-bottom: 10px;
+}
+
+.recommendation-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.recommendation-card {
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.recommendation-card:hover {
+  background-color: #007bff;
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.provider-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.card-price {
+  margin-top: 10px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.less-per-month {
+  font-size: 14px;
+  color: orange;
+}
+
+.card-details {
+  margin-top: 10px;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.previous-button, .next-button {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.previous-button:hover, .next-button:hover {
+  background-color: #303f9f;
+}
+
+@media (max-width: 768px) {
+  .dashboard-content {
+    flex-direction: column;
+  }
+
+  .left-column, .right-column {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+
+  .checkbox-sections {
+    flex-direction: column;
+  }
+}
