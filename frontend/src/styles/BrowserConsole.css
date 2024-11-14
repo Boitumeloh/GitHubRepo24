@@ -1,0 +1,25 @@
+.browser-console {
+    width: 100%; /* Make the console span the full width */
+    border-radius: 0; /* Remove border radius */
+    font-family: monospace;
+    color: #333;
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+  }
+  
+  .browser-console h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #007bff;
+    padding-left: 10px; /* Add padding to the left for the heading */
+  }
+  
+  .console-output {
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 10px;
+    font-size: 14px;
+    white-space: pre-wrap;
+  }
